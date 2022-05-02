@@ -1,0 +1,77 @@
+/* Import nicer font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Table Begin */
+.tableContainer {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.713);
+  box-shadow: 0 4px 2px -2px rgba(181, 181, 181, 0.378);
+  border: 1px solid rgba(181, 181, 181, 0.378);
+}
+
+table.customTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(181, 181, 181, 0.378);
+  empty-cells: hide;
+}
+
+table.customTable th {
+  font-size: 18px;
+}
+
+table.customTable td,
+th {
+  padding: 15px;
+  border-bottom: 1px solid rgba(181, 181, 181, 0.378);
+  border-top: 1px solid rgba(181, 181, 181, 0.378);
+  text-align: left;
+  font-weight: normal;
+}
+
+table.customTable tbody tr:hover {
+  background-color: rgba(187, 187, 187, 0.213);
+}
+
+.tdPadding {
+  padding-left: 0px !important;
+}
+
+.rowSelected {
+  background-color: rgba(181, 181, 181, 0.337);
+}
+/* Table End */
+
+input.largeCheckbox[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+/* Above-table status bar begin */
+.statusContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.statusElement {
+  flex-basis: auto;
+}
+/* Above-table status bar end */
+
+.downloadSelected {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.availableCircle:before {
+  content: " \25CF";
+  font-size: 15px;
+  color: rgb(109, 214, 109);
+}
