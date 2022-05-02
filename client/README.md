@@ -42,7 +42,8 @@ All tests are in App.test.js
 
 -This project does NOT use any external CSS frameworks such as bootstrap, reactstrap, reactbootstrap, material, etc.
 
--Under /src/components/TableSelect is the reusable component for this project, the rest of the files are for React bootstrapping. TableSelect has everything it needs in /src/components/TableSelect and is fully contained and portable.
+-Under /src/components/TableSelect is the reusable component for this project, the rest of the files are for React bootstrapping. 
+TableSelect has everything it needs in /src/components/TableSelect and is fully contained and portable.
 
 ```
 
